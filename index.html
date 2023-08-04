@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi: Personal Portfolio </title>
+    <link rel="stylesheet" href ="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class ="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#Home-content" class="active" >Home</a>
+            <a href="#About-content" id="About" >About</a>
+            <a href="#Skills-content" id="Skills">Skills</a>
+            <a href="#Projects-content" id="Projects">Projects</a>
+            <a href="#Contact-content" id="Contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content" id="Home-content">
+            <h1 >Hi , I'm Ravi Ray</h1>
+            <h3 >Web Stack Developer</h3>
+            <div class="btn-box">
+                <a href="https://in.linkedin.com/">Hire Me</a>
+                <a href="https://github.com/rv10ravi">GitHub</a>
+            </div>
+        </div>
+        <div class="home-content" id="About-content">
+            <h3>About</h3>
+            <p id="paragraph"> Hi, I’m Ravi Ray, a web developer based in Bengaluru, India and currently pursuing MCA. I have a  experience of  creating websites and web applications for client. I specialize in front-end development using HTML, CSS, JavaScript, and Bootstrap, but I also have some knowledge of back-end technologies such as C# and SQL DB. </p>
+        </div>
+        <div class="home-content" id="Skills-content">
+            <h3>Skills</h3>
+            
+            <p><i class='bx bxl-html5'> HTML</i></p>
+            <p><i class='bx bxl-css3'> CSS</i></p>
+            <p><i class='bx bxl-javascript' > JAVASCRIPT</i></p>
+            <p><i class='bx bxl-bootstrap' > BOOTSTRAP</i></p>
+            <p><i class='bx bxl-python' > PYTHON</i></p>
+            <p><i class='bx bxl-c-plus-plus'> C++</i></p>
+                
+            
+        </div>
+        <div class="home-content" id="Projects-content">
+            <h3>Projects</h3>
+            <h4>CarWithDriverIndia</h4>
+            <p>It is a Tour Package Booking Website  , It has been made on MVC Framework .<br>
+                <b>Language Used:</b><br>
+                 <b>Frontend : </b> HTML, CSS, JAVASCRIPT and  BOOTSTRAP <br>
+                 <b>Server Side Scripting Language : </b> C# <br>
+                 <b>Backend : </b> SQL DATABASE <br>
+                </p>
+
+        </div>
+        <div class="home-content" id="Contact-content">
+            <form >
+                <label class ="Emailid">Name</label><br>
+                <input  class = "Emailinput" type="text" id="name" placeholder="Your Name" required><br>
+                <label class ="Emailid" >Email</label><br>
+                <input  class = "Emailinput" type="email" id="email" placeholder="Your Email" required><br>
+                <label class ="Emailid" >Description</label><br>
+                <textarea  class = "Emailinput" id="message" placeholder="Your Message" required></textarea><br>
+                <button  class = "Submitbtn" onclick="sendMessage()">Send</button>
+              </form> 
+        </div>
+
+        <div class="home-sci">
+            <a href="https://www.facebook.com/"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://twitter.com/"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://in.linkedin.com/"><i class='bx bxl-linkedin' ></i></a>
+            
+        </div>
+    </section>
+</body>
+<script src="script2.js"></script>
+</html>
